@@ -4,7 +4,7 @@ import snowflake.connector
 import altair as alt
 import plotly.express as px
 
-st.set_page_config(page_title='My App', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='My App', page_icon='4.jpg', layout='wide')
 
 c1,c2,c3=st.columns([1,2,1])
 c2.title("INTERNATIONAL COVID DATA")
