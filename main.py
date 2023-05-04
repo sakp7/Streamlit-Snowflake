@@ -13,7 +13,7 @@ st.write("")
 st.write("")
 c1.image("4.jpg")
 c3.image("3.jpg")
-c2.subheader('"This Data is Retreived from a snowflake database"')
+c2.subheader('"This Data is Retrieved from a snowflake database"')
 # Snowflake connection details
 account = 'ot15309.us-central1.gcp'
 user = 'sakp7'
