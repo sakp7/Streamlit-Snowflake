@@ -2,5 +2,5 @@ altair==4.2.1
 pandas==1.5.3
 plotly==5.14.1
 snowflake==0.0.3
-snowflake_connector_python==3.0.3
+snowflake-connector-python==3.0.3
 streamlit==1.17.0
