@@ -13,7 +13,7 @@ st.write("")
 st.write("")
 c1.image("4.jpg")
 c3.image("3.jpg")
-c2.subheader('"This Data is Retrieved from a Snowflake DataBase"')
+c2.subheader('"This Data is Retreived from a snowflake database"')
 # Snowflake connection details
 account = 'ot15309.us-central1.gcp'
 user = 'sakp7'
@@ -72,5 +72,5 @@ combined_df = pd.DataFrame({
 st.dataframe(df)
 fig3 = px.pie(combined_df, values='Counts', names='Cases', title=f"COVID-19 Cases in {selected_country}")
 
-
-st.plotly_chart(fig3)
+x1,x2,x3=st.columns(3)
+x2.plotly_chart(fig3)
