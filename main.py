@@ -14,6 +14,7 @@ st.write("")
 c1.image("4.jpg")
 c3.image("3.jpg")
 c2.subheader('"This Data is Retreived from a snowflake database"')
+st.text("This app consists of covid data related to 230+ countries")
 # Snowflake connection details
 account = 'ot15309.us-central1.gcp'
 user = 'sakp7'
