@@ -57,7 +57,7 @@ st.write("")
 st.write("")
 
 countries = sorted(df['COUNTRY'].unique())
-selected_country = st.selectbox('Select a country', countries)
+selected_country = st.selectbox('Select a country', countries,index=75)
 query = f"SELECT TOTAL_CASES, TRANSMISSION_CLASSIFICATION, DEATHS FROM WHO_SITUATION_REPORTS WHERE COUNTRY = '{selected_country}' LIMIT 1;"
 st.write("")
 st.write("")
