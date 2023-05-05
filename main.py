@@ -16,8 +16,8 @@ c3.image("3.jpg")
 c2.subheader('"This Data is Retreived from a snowflake database"')
 # Snowflake connection details
 account = 'ot15309.us-central1.gcp'
-user = st.secrets["db_username"]
-password = st.secrets["db_password"]
+user = 'sakp7'
+password = 'Saketh@2003'
 database = 'COVID19_EPIDEMIOLOGICAL_DATA'
 schema = 'public'
 warehouse = 'COMPUTE_WH'
